@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="main">
+      <div id="login-outer-container">
+        <div id="login-container" class="">
+          <img id="user-image" src="images/User.jpg" alt="" />
+          <div id="input-container">
+            <input class="text-input" type="text" placeholder="Username" />
+            <input class="text-input" type="password" placeholder="Password" />
+          </div>
+          <div id="checkbox"><input type="checkbox" />Remember me?</div>
+          <div id="submit-flex">
+            <button class="submit-button">Sign In</button>
+            <div class="bottom-text">
+              Don't have an account?
+              <span id="create-account">Sign up</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="signup-outer-container">
+        <div id="signup-container" class="">
+          <img id="user-image" src="images/User.jpg" alt="" />
+          <input class="text-input" type="text" placeholder="Email" />
+          <input class="text-input" type="password" placeholder="Password" />
+          <input
+            class="text-input"
+            type="password"
+            placeholder="Confirm password"
+          />
+          <button class="submit-button">Sign up</button>
+          <div class="bottom-text">
+            Have an account?
+            <span id="exit-signup">Sign in</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
